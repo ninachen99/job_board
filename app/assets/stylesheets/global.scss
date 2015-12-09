@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.content {
+  margin: 40px 90px;
+  
+
+}
+
+.clearfix {
+  overflow: hidden;
+}
+
+.form {
+	margin: 10px 10px;
+}
+
+div.container-header {
+	margin: 0 40px;
+}
+h1.hero {
+	color: #000;
+	font-weight: 300;
+}
+
+h3.job-title {
+	color: #000;
+	text-transform: uppercase;
+}
+
+p.job-descript {
+	color: #000;
+	text-transform: capitalize;
+}
+
+button.btn {
+  margin: 0 7px;
+}
+
+div.btn-action {
+	margin: 20px 0;
+}
+
+div.container {
+	margin: 20px 0;
+}

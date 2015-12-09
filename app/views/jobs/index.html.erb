@@ -1,0 +1,15 @@
+<h1 class="hero">RailsBridgeCorp Open Jobs</h1>
+<% @jobs.each do |job| %>
+<div class="container">
+	<h3 class="job-title"><%= job.title %></h3>
+    <p class="job-descript" ><%= job.description %></p>
+    
+
+ <div class="btn-action">
+    <button class="btn btn-default"><%=link_to "Edit Posting", edit_job_path(job)%></button>
+    <button  class="btn btn-warning"><%= link_to 'Delete Posting', job, method: :delete %></button>
+ </div>
+</div>
+<% end %>
+
+
